@@ -1,0 +1,18 @@
+@"
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+dist/
+*.db
+private_uploads/
+uploads/
+"@ | Out-File -Encoding utf8 .gitignore

@@ -1,0 +1,6 @@
+import guardrails
+import nemoguardrails.library.self_check.input_check
+import nemoguardrails.library.self_check.output_check
+
+flow main
+  await wait indefinitely
